@@ -21,18 +21,18 @@ The user interface is written in tkinter, a library that comes with python.
 
 A few actions must be done in order to make the program work :
 
-Before cloning the repository, make sure you have the following requirements installed:
+- Before cloning the repository, make sure you have the following requirements installed:
 
         Python 3.9.5 - https://www.python.org/
         MySQL Server 8.0.26 - https://dev.mysql.com/downloads/mysql/
         MySQL Connector Python 8.0.26 - https://dev.mysql.com/downloads/connector/python/
   
-Make sure you have installed the libraries which folllow. Just write in the Python shell the line code : pip install + "name_of_the_library"
+- After cloning the repository, go to the file 'source/db.py' and change the rp variable to include your MySQL root password, otherwise authentication will not work (because the database is hosted locally, i kept it this way for now, however, this will be changed later on to reflect a more secure way of authentication).
+
+- Make sure you have installed the libraries which folllow. Just write in the Python shell the line code : pip install + "name_of_the_library"
 
         mysql-connector-python
         tkcalendar
         bcrypt
         matplotlib
         tkmacosx
-
-IMPORTANT: after cloning the repository, go to the file 'source/db.py' and change the rp variable to include your MySQL root password, otherwise authentication will not work (because the database is hosted locally, i kept it this way for now, however, this will be changed later on to reflect a more secure way of authentication).
