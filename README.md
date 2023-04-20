@@ -4,6 +4,7 @@ This diagnostic tool is intended to be an improvement of the original tool avail
 
 
 This tool is based on the National Institute for Standards and Technology (NIST) framework for cybersecurity, and the Federal Financial Institutions Examination Council (FFIEC) cybersecurity assessment tool (links below).
+
     NIST - https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.04162018.pdf
     FFIEC - https://www.ffiec.gov/cyberassessmenttool.htm#tool
 
@@ -17,6 +18,7 @@ An 20 min overview is possible to have a glimpse of the performances this tool a
 
 
 Before cloning the repository, make sure you have the following requirements installed:
+
     Python 3.9.5 - https://www.python.org/
     MySQL Server 8.0.26 - https://dev.mysql.com/downloads/mysql/
     MySQL Connector Python 8.0.26 - https://dev.mysql.com/downloads/connector/python/
